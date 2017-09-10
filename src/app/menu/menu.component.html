@@ -1,7 +1,11 @@
 <div>
-<button md-button [mdMenuTriggerFor]="menu">Menu Principal</button>
-<md-menu #menu="mdMenu">
-  <button md-menu-item routerLink="customers/index" routerLinkActive="active">Customer></button>
-  <button md-menu-item routerLink="orders/add" routerLinkActive="active">Orders</button>
-</md-menu>
-</div>
+    <div class="button-row">
+      <button [mdMenuTriggerFor]="menu" md-fab>
+            <md-icon class="md-24"class="material-icons">accessibility</md-icon>          
+      </button>
+    </div>
+    <md-menu #menu="mdMenu">
+      <button md-menu-item routerLink="customers/index">Customer</button>
+      <button md-menu-item routerLink="orders/add">Orders</button>
+    </md-menu>
+  </div>

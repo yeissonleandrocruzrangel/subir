@@ -38,7 +38,7 @@ import {OrdersModule} from './orders/orders.module'
     MdExpansionModule,  MdGridListModule,  MdIconModule,  MdInputModule,  MdListModule,    MdMenuModule,  MdNativeDateModule,  MdPaginatorModule,  MdProgressBarModule,
     MdProgressSpinnerModule,  MdRadioModule,  MdRippleModule,    MdSelectModule,  MdSidenavModule,  MdSliderModule,  MdSlideToggleModule,  MdSnackBarModule,  MdSortModule,
     MdTableModule,  MdTabsModule,  MdToolbarModule,  MdTooltipModule,
-    BrowserModule,
+    BrowserAnimationsModule,
     BrowserModule,
     CustomersModule,
     OrdersModule,
