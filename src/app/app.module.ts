@@ -1,3 +1,5 @@
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+
 import {RouterModule, Routes} from '@angular/router';
 import {IndexComponent} from './customers/index/index.component';
 import {AddComponent as orderAddComponent} from './orders/add/add.component'
@@ -27,6 +29,7 @@ import {OrdersModule} from './orders/orders.module'
     ListComponent
   ],
   imports: [
+    BrowserModule,
     BrowserModule,
     CustomersModule,
     OrdersModule,
